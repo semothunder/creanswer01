@@ -1,0 +1,65 @@
+%!Adobe-FontList 1.23
+%Locale:0x412
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:CID
+FontName:ONEMobilePOPOTFRegular
+FamilyName:ONE Mobile POP OTF
+StyleName:Regular
+FullName:ONE Mobile POP OTF
+MenuName:ONE 모바일POP OTF
+StyleBits:0
+FamilyNameNative:ONE 모바일POP OTF
+StyleNameNative:Regular
+FullNameNative:ONE 모바일POP OTF
+WritingScript:Korean
+OutlineFileName:C:\xampp\htdocs\creanswer_230214\img-02\Font\ONE_Mobile_POP_OTF.otf
+DataFormat:sfntData
+isCFF:yes
+hasSVG:no
+VariableFontType:NonVariableFont
+FileLength:1247124
+FileModTime:1614935972
+WeightClass:400
+WidthClass:5
+AngleClass:0
+NameArray:0,Mac,4,ONE Mobile POP OTF
+NameArray:3,Mac,4,ONE 모바일POP OTF
+NameArray:0,Win,1,ONE Mobile POP OTF
+NameArray:0,Win,16,ONE Mobile POP OTF
+NameArray:3,Win,1,ONE 모바일POP OTF
+NameArray:3,Win,16,ONE 모바일POP OTF
+%EndFont
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:CID
+FontName:RixYeoljeongdoPR
+FamilyName:RixYeoljeongdo_Pro
+StyleName:Regular
+FullName:RixYeoljeongdo_Pro Regular
+MenuName:Rix열정도_Pro
+StyleBits:0
+FamilyNameNative:Rix열정도_Pro
+StyleNameNative:Regular
+FullNameNative:Rix열정도_Pro Regular
+WritingScript:Korean
+OutlineFileName:C:\xampp\htdocs\creanswer_230214\img-02\Font\RixYeoljeongdo_Pro_Regular.otf
+DataFormat:sfntData
+isCFF:yes
+hasSVG:no
+VariableFontType:NonVariableFont
+FileLength:495504
+FileModTime:1675761961
+WeightClass:400
+WidthClass:5
+AngleClass:0
+NameArray:0,Mac,4,RixYeoljeongdo_Pro Regular
+NameArray:3,Mac,4,Rix열정도_Pro Regular
+NameArray:0,Win,1,RixYeoljeongdo_Pro
+NameArray:0,Win,16,RixYeoljeongdo_Pro
+NameArray:3,Win,1,Rix열정도_Pro
+NameArray:3,Win,16,Rix열정도_Pro
+%EndFont
+
