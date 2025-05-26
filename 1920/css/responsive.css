@@ -39,3 +39,84 @@
   }
   .c2-animation-anchor {    top:-50rem;}
  } */
+
+/* 모바일 (최대 768px) */
+@media (max-width: 768px) {
+    body {
+        font-size: 14px;
+        line-height: 1.5;
+    }
+
+    .wrapper {
+        padding: 10px;
+    }
+
+    .header-ul {
+        flex-direction: column;
+        align-items: center;
+        gap: 10px;
+    }
+
+    .video-bg {
+        height: 200px;
+    }
+
+    .card-container {
+        grid-template-columns: 1fr;
+        gap: 15px;
+    }
+
+    .intro-card {
+        transform: none;
+        text-align: center;
+    }
+
+    .controls {
+        flex-direction: column;
+        gap: 10px;
+    }
+
+    .contact_formList {
+        width: 100%;
+    }
+}
+
+/* 태블릿 (768px ~ 1024px) */
+@media (min-width: 769px) and (max-width: 1024px) {
+    body {
+        font-size: 16px;
+    }
+
+    .header-ul {
+        justify-content: space-around;
+    }
+
+    .card-container {
+        grid-template-columns: repeat(2, 1fr);
+        gap: 20px;
+    }
+
+    .video-bg {
+        height: 300px;
+    }
+}
+
+/* 데스크톱 (1024px 이상) */
+@media (min-width: 1025px) {
+    body {
+        font-size: 18px;
+    }
+
+    .header-ul {
+        justify-content: flex-end;
+    }
+
+    .card-container {
+        grid-template-columns: repeat(3, 1fr);
+        gap: 30px;
+    }
+
+    .video-bg {
+        height: 400px;
+    }
+}
