@@ -1,65 +1,35 @@
+<?php
 <!DOCTYPE html>
 <html lang="ko-kr" style="zoom: 100%;background-color: #fafbfd; color: #fff;">
 
 <head>
     <meta charset="UTF-8">
-    <link rel="stylesheet" href="css/style-rem.css">
-    <script src="js/script.js"></script>
-
-
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
     <meta name="format-detection" content="telephone=no" />
     <meta name="description" content="병원광고 | 병원홍보 | 기업광고 | 병원온라인홍보 | 병원온라인광고 | 병원마케팅 | 병원온라인마케팅 | 병원블로그마케팅 | 병원블로그 | 병원홈페이지 | 퍼스널브랜드 | 퍼스널브랜딩 | 브랜딩마케팅">
     <meta name="keywords" content="병원광고, 병원온라인광고, 병원홍보, 병원온라인홍보, 병원마케팅, 병원온라인마케팅, 기업마케팅, 병원홈페이지, 병원디자인, 병원홍보디자인, 병원블로그, 병원브랜드블로그, 퍼스널브랜딩, 퍼스널브랜드, 광고기획사, 병원광고대행사, 온라인광고회사, 병원온라인광고회사, 온라인광고업체, 홈페이지제작, 홈페이지관리, 온라인광고전문, 병원온라인홍보전문, 광고대행, 병원홍보대행">
-    <meta name="google-site-verification" content="-YaUStQ2PX1GxE9iuGZimfbPy8ypOyWRz5Q3kK38JvQ" />
-    <meta name="naver-site-verification" content="ff11beb2c85237194bcaf5fc62e314f1e9b4b0e9" />
     <meta property="og:type" content="website">
     <meta property="og:title" content="크리앤서">
     <meta property="og:description" content="병원광고 | 병원홍보 | 기업광고 | 병원온라인홍보 | 병원온라인광고 | 병원마케팅 | 병원온라인마케팅 | 병원블로그마케팅 | 병원블로그 | 병원홈페이지 | 퍼스널브랜드 | 퍼스널브랜딩 | 브랜딩마케팅">
     <meta property="og:url" content="https://creanswer.com/">
     <meta property="og:image" content="https://creanswer.com/img/logo-round.png">
     <title>CREANSWER</title>
-    <link rel="favicon" href="./favicon.ico">
     <link rel="icon" href="./favicon.ico" type="image/x-icon" sizes="16x16">
 
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <!-- Fonts -->
     <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@100;200;300;400;500;600;700;800;900&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Noto+Serif+KR:wght@200;300;400;500;600;700;900&display=swap" rel="stylesheet">
 
+    <!-- Stylesheets -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.8.2/css/all.min.css" />
-    <link rel="stylesheet" href="./plugin/slick-1.8.1/slick/slick.css">
-    <link rel="stylesheet" href="./plugin/slick-1.8.1/slick/slick-theme.css">
     <link rel="stylesheet" href="./css/swiper-bundle.min.css">
     <link rel="stylesheet" href="./css/base.css?version=230531-1">
     <link rel="stylesheet" href="./css/style-rem.css?version=240401">
-    <!-- <link rel="stylesheet" href="./css/module.css?version=240401"> -->
     <link rel="stylesheet" href="./css/responsive.css?version=230531-1">
 
+    <!-- AOS Animation -->
     <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
-    
-    <script type="text/javascript">
-        var filter = "win16|win32|win64|mac|macintel";
-        if (navigator.platform) {
-            if (filter.indexOf(navigator.platform.toLowerCase()) < 0) {
-                location.href = "http://creanswer.com/m";
-            }
-        }
-        
-        var screenWidth = window.screen.width;
-        if (screenWidth <= 3439) {
-            location.href = "http://creanswers.cafe24.com/test-main/1920";
-        } else if (screenWidth >= 3440 && screenWidth <= 5119) {
-            location.href = "http://creanswers.cafe24.com/test-main/3440";
-        } else if (screenWidth >= 5120) {
-            location.href = "http://creanswers.cafe24.com/test-main/5120";
-        }
-
-    </script>
-
-    
-
 </head>
 
 <body>
@@ -1647,4 +1617,22 @@
 
 </script>
 
+<script type="text/javascript">
+    var screenWidth = window.screen.width;
+    if (screenWidth <= 3439) {
+        location.href = "http://creanswers.cafe24.com/test-main/1920";
+    } else if (screenWidth >= 3440 && screenWidth <= 5119) {
+        location.href = "http://creanswers.cafe24.com/test-main/3440";
+    } else if (screenWidth >= 5120) {
+        location.href = "http://creanswers.cafe24.com/test-main/5120";
+    }
+</script>
+<script type="text/javascript">
+    var filter = "win16|win32|win64|mac|macintel";
+    if (navigator.platform) {
+        if (filter.indexOf(navigator.platform.toLowerCase()) < 0) {
+            location.href = "http://creanswer.com/m";
+        }
+    }
+</script>
 </html>
