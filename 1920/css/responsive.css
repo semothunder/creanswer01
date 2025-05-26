@@ -1,0 +1,41 @@
+/* responsive.css */
+
+
+@media screen and (max-width : 1339.999999px){
+
+  html {font-size:calc(16px * 0.888);}
+}
+
+
+@media screen and (max-width : 1440px){ 
+
+  html {font-size:calc(16px * 0.96);}
+}
+
+/* @media screen and ( min-width: 1921.000001px) and (max-width : 2047.999999px){
+
+  html {font-size:calc(16px * 1.06)}
+  .main-video { max-width:var(--base-width); 
+    padding-top: 6.75rem;
+  }
+
+  .c2-animation-anchor {    top:-48rem;}
+ }
+
+ @media screen and ( min-width: 2048px) and (max-width : 2559.999998px){
+
+  html {font-size:calc(16px * 1.12)}
+  .main-video { max-width:var(--base-width); 
+    padding-top: 6.75rem;
+  }
+  .c2-animation-anchor {    top:-50rem;}
+ }
+
+@media screen and ( min-width: 2559.999999px){
+
+  html {font-size:calc(16px * 1.2)}
+  .main-video { max-width:var(--base-width); 
+    padding-top: 6.75rem;
+  }
+  .c2-animation-anchor {    top:-50rem;}
+ } */
